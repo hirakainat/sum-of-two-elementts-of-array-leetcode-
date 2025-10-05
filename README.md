@@ -75,3 +75,61 @@ Return the answer in **any order**.
 
 ---
 
+---
+
+# 🌼 Longest Common Prefix
+
+### 🧩 Problem Statement
+
+Write a function to find the **longest common prefix string** among an array of strings.
+If there is no common prefix, return an empty string `""`.
+
+**Example:**
+
+```
+Input:  ["flower", "flow", "flight"]
+Output: "fl"
+```
+
+---
+
+
+#### 🔹 Optimized Approach – O(N × M) 
+
+* Use the first word as the initial prefix.
+* For each next string:
+
+  * Check if it starts with the current prefix using `.find(prefix)`.
+  * If not, remove the last character from the prefix (`prefix = prefix.substr(0, prefix.size() - 1)`).
+  * Repeat until all strings share the prefix or prefix becomes empty.
+* Returns the longest prefix efficiently.
+
+---
+
+### 🧮 Example Dry Run
+
+| Step | Current Word | Prefix Before | Prefix After | Match Found |
+| ---- | ------------ | ------------- | ------------ | ----------- |
+| 1    | flow         | flower        | flow         | ✅           |
+| 2    | flight       | flow          | fl           | ✅           |
+
+✅ Final Output → `"fl"`
+
+---
+
+### ⏱️ Time and Space Complexity
+
+* **Time Complexity:** O(N × M)
+  (N = number of words, M = average length of words)
+
+
+---
+
+### 📂 Files in This Repository
+
+
+* CommonPrefix.cpp` — 
+
+
+---
+
