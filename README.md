@@ -1,7 +1,3 @@
-Perfect 👏 agar tumne **code files already upload** kar di hain (e.g. `two_sum_bruteforce.cpp` aur `two_sum_hashmap.cpp`),
-to yeh raha **final README.md** version **without code blocks** — bilkul professional style me likha gaya hai GitHub ke liye 👇
-
----
 
 # 🧮 Two Sum Problem (C++)
 
