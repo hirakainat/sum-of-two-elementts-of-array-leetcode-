@@ -62,8 +62,8 @@ Return the answer in **any order**.
 
 | File Name                | Description                         |
 | ------------------------ | ----------------------------------- |
-| `two_sum_bruteforce.cpp` | Brute-force O(n²) solution          |
-| `two_sum_hashmap.cpp`    | Optimized O(n) solution             |
+| `MAIN.cpp` | Brute-force O(n²) solution          |
+| `MAIN(1).cpp`    | Optimized O(n) solution             |
 | `README.md`              | Problem description and explanation |
 
 ---
@@ -75,4 +75,3 @@ Return the answer in **any order**.
 
 ---
 
-Chaho to mai is README ko thoda aur **GitHub-styled decorative version** bana du (bold headings, emojis, horizontal dividers, aur colored section titles) taake professional lagay jab koi visit kare repo?
